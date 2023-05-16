@@ -99,15 +99,15 @@ h3, h4, h5, h6, p{
 
 /* 3. HERO */
 #hero {
-  background-color: var(--offgrey);
-  padding: var(--size-xl) var(--size-l);
+  background-color: var(--pixel-grey);
+  /* padding: 60px; */
 }
 
 .section-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 120px;
+  padding: 60px;
   max-width: 1145px; /* added to ensure the total width does not exceed 1145px */
   margin: 0 auto; /* added to center the section container */
 }
@@ -128,10 +128,10 @@ h3, h4, h5, h6, p{
   text-align: left;
 }
 
-img {
+/* img {
   max-width: 430px;
   height: auto;
-}
+} */
 
 
 
@@ -168,6 +168,11 @@ img {
 
 #powerBy a {
   color: var(--pixel-red);
+}
+
+.bricklogo {
+  max-width: 100%;
+  height: 30px;
 }
 
 /* #socmedia {
@@ -215,7 +220,7 @@ img {
 
 
 /* MEDIA QUERIES */
-/* added the following media query to ensure the layout is responsive */
+    /* added the following media query to ensure the layout is responsive */
 @media screen and (max-width: 1145px) {
   .section-container {
     flex-direction: column;
