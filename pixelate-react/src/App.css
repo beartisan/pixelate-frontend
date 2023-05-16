@@ -5,8 +5,9 @@
 * 1. GENERAL STYLES
 * 2. HEADER
 * 3. HERO
-* 4. MAIN
-* 5. FOOTER
+* 4. MAIN - Upload
+* 5. MAIN - Download
+* 6. FOOTER
 
 */
 
@@ -95,7 +96,61 @@ h3, h4, h5, h6, p{
   color: var(--pixel-orange);
 }
 
-/* 5. FOOTER */
+
+/* 3. HERO */
+#hero {
+  background-color: var(--offgrey);
+  padding: var(--size-xl) var(--size-l);
+}
+
+.section-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 120px;
+  max-width: 1145px; /* added to ensure the total width does not exceed 1145px */
+  margin: 0 auto; /* added to center the section container */
+}
+
+.hero-title {
+  font-size: var(--size-xl);
+  color: white;
+  margin-bottom: var(--size-l);
+  max-width: 615px;
+  text-align: left;
+}
+
+.hero-text {
+  max-width: 615px;
+  font-size: var(--size-s);
+  color: white;
+  margin-bottom: var(--size-m);
+  text-align: left;
+}
+
+img {
+  max-width: 430px;
+  height: auto;
+}
+
+
+
+/* 4. MAIN - Upload */
+
+
+
+
+
+
+/* 5. MAIN - Download */
+
+
+
+
+
+
+
+/* 6. FOOTER */
 
 #footer {
   padding: var(--size-m);
@@ -155,4 +210,22 @@ h3, h4, h5, h6, p{
 }
 .socmedia-item:last-child {
   margin-right: 0;
+}
+
+
+
+/* MEDIA QUERIES */
+/* added the following media query to ensure the layout is responsive */
+@media screen and (max-width: 1145px) {
+  .section-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: var(--size-l);
+  }
+  img {
+    margin-top: var(--size-m);
+    max-width: 100%;
+    height: auto;
+  }
 }
