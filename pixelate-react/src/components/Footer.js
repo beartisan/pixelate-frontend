@@ -5,7 +5,7 @@ export default function Footer() {
     return (
        <footer id="footer">
             <h2 id="powerBy">
-               Powered by <a href="https://brickmmo.com/" target="_blank"><img src={brickmmoLogo}alt="Brick MMO" class="bricklogo" /></a>
+               Powered by <a href="https://brickmmo.com/" target="_blank"><img src={brickmmoLogo}alt="Brick MMO" class="brickmmo-logo" /></a>
             </h2>
             <nav>
                 <ul id="socmedia" className="socmedia">

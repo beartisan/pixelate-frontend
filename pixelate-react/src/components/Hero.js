@@ -1,3 +1,6 @@
+import React from 'react';
+import heroPhoto from '../vangogh-brick.jpeg';
+
 export default function Hero() {
     return (
         <section id="hero">
@@ -9,7 +12,7 @@ export default function Hero() {
                 <p class="hero-text">Start building your unique creations today!
                 </p>
                 </div>
-                <img src="/pixelate-react/src/vangogh-brick.jpeg" alt="Van Gogh in Lego Bricks" class="hero-image"/>
+                <img src={heroPhoto} alt="Van Gogh in Lego Bricks" class="hero-image"/>
             </div>
         </section>
     );   
