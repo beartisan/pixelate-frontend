@@ -26,7 +26,7 @@ function Upload() {
       <h3>Upload your image</h3>
       <form onSubmit={handleSubmit}>
         <input type="file" name="image" onChange={handleFileUpload} />
-        <button type="submit" id="uploadImg">Pixelize!</button>
+        <button type="submit" id="uploadImg">Upload</button>
       </form>
     </section>
   );
