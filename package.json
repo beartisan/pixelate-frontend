@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/beartisan/pixelate-frontend#readme",
   "dependencies": {
+    "jimp": "^0.22.8",
     "multer": "^1.4.5-lts.1"
   }
 }

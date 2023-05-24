@@ -5,6 +5,7 @@ import './App.css';
 import Header from "./components/Header";
 import Hero from './components/Hero';
 import Upload from "./components/Upload";
+import Pixel from "./components/Pixel";
 import Footer from './components/Footer';
 
 
@@ -13,7 +14,7 @@ function App() {
     <div className="page">
       <Header />
       <Hero />
-      <Upload />
+      <Pixel/>
       <Footer />
     </div>
   );
