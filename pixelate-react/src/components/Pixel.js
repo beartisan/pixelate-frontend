@@ -112,7 +112,7 @@ function PixelPic() {
         <canvas
           ref={canvasRef}
           style={{ display: 'none' }}
-        ></canvas> {/* Hidden canvas element */}
+        ></canvas> 
       </div>
     </div>
   );
