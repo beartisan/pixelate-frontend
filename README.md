@@ -10,3 +10,7 @@ Upload and Footer styles
 
 Uploading: 
 <img width="1268" alt="Screenshot 2023-06-21 at 11 32 44" src="https://github.com/beartisan/pixelate-frontend/assets/113320828/5d5fbf02-ca61-48e1-aeb3-196e3d95147a">
+
+
+Output Pixels
+<img width="1089" alt="Screenshot 2023-06-21 at 11 32 51" src="https://github.com/beartisan/pixelate-frontend/assets/113320828/6964e180-17a7-46d8-9eda-e2b83bc97142">
