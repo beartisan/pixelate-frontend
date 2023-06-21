@@ -14,3 +14,8 @@ Uploading:
 
 Output Pixels
 <img width="1089" alt="Screenshot 2023-06-21 at 11 32 51" src="https://github.com/beartisan/pixelate-frontend/assets/113320828/6964e180-17a7-46d8-9eda-e2b83bc97142">
+
+
+Error Message for empty Image:
+<img width="1077" alt="Screenshot 2023-06-21 at 11 34 39" src="https://github.com/beartisan/pixelate-frontend/assets/113320828/31b3e204-1d99-46ab-a5e3-c10207faf3f6">
+
